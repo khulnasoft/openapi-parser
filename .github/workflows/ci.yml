@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [20]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install
+      - name: Turborepo cache
+        uses: dtinth/setup-github-actions-caching-for-turbo@v1
+      - name: Check code style
+        run: pnpm format:check
+      - name: Build
+        run: pnpm turbo build
+      - name: Check types
+        run: pnpm turbo types:check
+      - name: Cache example files
+        id: cache-real-world-examples
+        uses: actions/cache@v4
+        with:
+          path: packages/openapi-parser/tests/files
+          key: real-world-examples
+      - name: 'Prepare test environment (fetch example files)'
+        run: pnpm test:prepare
+      - name: Run tests
+        run: pnpm test
+      # TODO: Make repository public first
+      # - name: Send bundle stats and build information to RelativeCI
+      #   uses: relative-ci/agent-action@v2
+      #   with:
+      #     key: ${{ secrets.RELATIVE_CI_KEY }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     webpackStatsFile: ./packages/api-reference/dist/webpack-stats.json

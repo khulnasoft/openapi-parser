@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@vitest/coverage-v8": "^1.5.0",
+    "github-slugger": "^2.0.0",
+    "lefthook": "^1.6.10",
+    "prettier": "^3.0.3",
+    "turbo": "^1.13.2",
+    "typescript": "^5.4.5",
+    "vite-node": "^1.5.0",
+    "vitest": "^1.5.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @readyapi/openapi-parser dev",
+    "build": "pnpm -r build",
+    "bump": "CI=true pnpm run test && pnpm changeset version",
+    "format": "pnpm prettier --write .",
+    "format:check": "pnpm prettier --check .",
+    "lint": "pnpm -r lint:check",
+    "lint:fix": "pnpm -r lint:fix",
+    "test": "vitest",
+    "test:prepare": "vite-node scripts/fetch-files.ts",
+    "types:check": "pnpm -r types:check"
+  }
+}
