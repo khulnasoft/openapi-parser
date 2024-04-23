@@ -1,4 +1,4 @@
-# Scalar OpenAPI Parser
+# KhulnaSoft OpenAPI Parser
 
 [![CI](https://github.com/khulnasoft/openapi-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/khulnasoft/openapi-parser/actions/workflows/ci.yml)
 [![Release](https://github.com/khulnasoft/openapi-parser/actions/workflows/release.yml/badge.svg)](https://github.com/khulnasoft/openapi-parser/actions/workflows/release.yml)
