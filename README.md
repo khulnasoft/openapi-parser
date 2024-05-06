@@ -111,21 +111,24 @@ Thanks a ton for all the help and inspiration:
 
 <!-- readme: collaborators,contributors -start -->
 <table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/NxPKG">
-            <img src="https://avatars.githubusercontent.com/u/116948796?v=4" width="100;" alt="NxPKG"/>
-            <br />
-            <sub><b>NxPKG</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/FortiShield">
-            <img src="https://avatars.githubusercontent.com/u/161459699?v=4" width="100;" alt="FortiShield"/>
-            <br />
-            <sub><b>FortiShield</b></sub>
-        </a>
-    </td></tr>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/NxPKG">
+                    <img src="https://avatars.githubusercontent.com/u/116948796?v=4" width="100;" alt="NxPKG"/>
+                    <br />
+                    <sub><b>NxPKG</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/FortiShield">
+                    <img src="https://avatars.githubusercontent.com/u/161459699?v=4" width="100;" alt="FortiShield"/>
+                    <br />
+                    <sub><b>FortiShield</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
 </table>
 <!-- readme: collaborators,contributors -end -->
 
