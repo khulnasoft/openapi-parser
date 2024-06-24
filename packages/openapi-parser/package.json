@@ -39,7 +39,7 @@
     "@apidevtools/swagger-parser": "^10.1.0",
     "@modyfi/vite-plugin-yaml": "^1.1.0",
     "@types/js-yaml": "^4.0.9",
-    "glob": "^10.4.1",
+    "glob": "^10.4.2",
     "just-diff": "^6.0.2",
     "vite": "^5.0.13",
     "vite-plugin-dts": "^3.9.1"
