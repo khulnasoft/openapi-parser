@@ -42,8 +42,8 @@ importers:
   packages/openapi-parser:
     dependencies:
       '@humanwhocodes/momoa':
-        specifier: ^3.1.1
-        version: 3.1.1
+        specifier: ^3.2.0
+        version: 3.2.0
       '@types/node':
         specifier: ^22.0.0
         version: 22.0.0
@@ -393,8 +393,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@humanwhocodes/momoa@3.1.1':
-    resolution: {integrity: sha512-W0DfjOgtm/X6OzuMdkppEDZlCC1tJ98ygTD+FSmDiG1GDxSX7tZQEkcotwe//7gvGMkElf4oT/zplRJVlTKREA==}
+  '@humanwhocodes/momoa@3.2.0':
+    resolution: {integrity: sha512-xvLEGSmd8qxcqlKFnTxdnmqQFsYGC4GhpuhHgdFoZBV9zxvmSlTuasj2D3vei3IsBGmjP/ITwPFejNAG/w+jsw==}
     engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
@@ -2076,7 +2076,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@humanwhocodes/momoa@3.1.1': {}
+  '@humanwhocodes/momoa@3.2.0': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
