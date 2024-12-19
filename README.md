@@ -115,21 +115,21 @@ Thanks a ton for all the help and inspiration:
 		<tr>
             <td align="center">
                 <a href="https://github.com/NxPKG">
-                    <img src="https://avatars.githubusercontent.com/u/116948796?v=4" width="100;" alt="NxPKG"/>
+                    <img src="https://private-avatars.githubusercontent.com/u/116948796?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjIwMjAsIm5iZiI6MTczNDYyMDgyMCwicGF0aCI6Ii91LzExNjk0ODc5NiJ9.31l-DqBFlSzdAVD07leiqaEZcRpLlTjvXD7XRajRfXk&v=4" width="100;" alt="NxPKG"/>
                     <br />
                     <sub><b>NxPKG</b></sub>
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/FortiShield">
-                    <img src="https://avatars.githubusercontent.com/u/161459699?v=4" width="100;" alt="FortiShield"/>
+                    <img src="https://private-avatars.githubusercontent.com/u/161459699?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjIzODAsIm5iZiI6MTczNDYyMTE4MCwicGF0aCI6Ii91LzE2MTQ1OTY5OSJ9.SfBQPpgqj4aOk3GveBRdoGklis7-Tsdu4jM5xAdmDB8&v=4" width="100;" alt="FortiShield"/>
                     <br />
                     <sub><b>FortiShield</b></sub>
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/gitworkflows">
-                    <img src="https://avatars.githubusercontent.com/u/118260833?v=4" width="100;" alt="gitworkflows"/>
+                    <img src="https://private-avatars.githubusercontent.com/u/118260833?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjIyMDAsIm5iZiI6MTczNDYyMTAwMCwicGF0aCI6Ii91LzExODI2MDgzMyJ9.mOZPGoGOp1y8eGn0D2GDrx-xcimG6dFueKZCZeIQ1Y8&v=4" width="100;" alt="gitworkflows"/>
                     <br />
                     <sub><b>gitworkflows</b></sub>
                 </a>
