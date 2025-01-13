@@ -42,7 +42,7 @@
     "glob": "^11.0.0",
     "just-diff": "^6.0.2",
     "vite": "^5.1.8",
-    "vite-plugin-dts": "^4.4.0"
+    "vite-plugin-dts": "^4.5.0"
   },
   "dependencies": {
     "@humanwhocodes/momoa": "^3.3.5",
