@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@apidevtools/swagger-parser": "^10.1.1",
-    "@modyfi/vite-plugin-yaml": "^1.1.0",
+    "@modyfi/vite-plugin-yaml": "^1.1.1",
     "@types/js-yaml": "^4.0.9",
     "glob": "^11.0.1",
     "just-diff": "^6.0.2",
