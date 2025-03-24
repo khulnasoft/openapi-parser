@@ -9,7 +9,7 @@
     "prettier": "^3.5.3",
     "turbo": "^2.4.4",
     "typescript": "^5.8.2",
-    "vite-node": "^3.0.6",
+    "vite-node": "^3.0.9",
     "vitest": "^3.0.8"
   },
   "private": true,
