@@ -3,7 +3,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@vitest/coverage-v8": "^3.0.8",
+    "@vitest/coverage-v8": "^3.1.1",
     "github-slugger": "^2.0.0",
     "lefthook": "^1.11.4",
     "prettier": "^3.5.3",
